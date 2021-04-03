@@ -21,7 +21,7 @@
     <div class="container">
         <div class="row align-items-center justify-content-between">
             <h1 class="text-center title">PHP Form Validation</h1>
-            <div class="col-lg-6 col-md-6 col-sm-12 card ">
+            <div class="col-lg-6 col-md-12 col-sm-12 card ">
                 <h1 class="text-center">Input</h1>
 
                 <form action="" method="post">
@@ -29,9 +29,9 @@
                     <input type="text" name="first-name" id="" placeholder="First Name" class="form-control mb-3">
                     <input type="text" name="last-name" id="" placeholder="Last Name" class="form-control mb-3">
 
-                    <input type="radio" name="gender" value="male" id="male" class="mb-3">
+                    <input type="radio" name="gender" value="male" id="male" class="mb-5">
                     <label for="male">Male</label>
-                    <input type="radio" name="gender" value="female" id="female" class="mb-3">
+                    <input type="radio" name="gender" value="female" id="female" class="mb-5">
                     <label for="female">Female</label>
 
                     <input type="email" name="email" id="" placeholder="Email" class="form-control mb-3">
@@ -43,7 +43,7 @@
                 </form>
             </div>
 
-            <div class="col-lg-5 col-md-5 col-sm-12 card">
+            <div class="col-lg-5 col-md-12 col-sm-12 card">
                 <h1 class="text-center">Validated Output</h1>
                 <span class="text-center">
                     <?php
